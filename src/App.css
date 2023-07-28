@@ -1,0 +1,72 @@
+body {
+  background-color: #121212;
+
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding-top: 80px;
+}
+
+.container img {
+  max-width: 350px;
+}
+
+.container .title {
+  color: #fff;
+  margin: 14px 0;
+}
+
+.category-area {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 34px;
+}
+
+.category-area button {
+  padding: 4px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-frase {
+  background-color: #1fa4db;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.textoFrase {
+  width: 420px;
+  color: aqua;
+  background-color: #fafafa;
+  border-radius: 50px;
+  text-align: center;
+  padding: 14px 22px;
+  margin: 24px 0  16px 0;
+  line-height: 150%;
+  font-style: italic;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .textoFrase {
+    width: 90%;
+  }
+}
